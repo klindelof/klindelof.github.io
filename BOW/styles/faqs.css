@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lobster&display=swap');
+body{
+    background-color: gainsboro;
+}
+header{
+    background-color: rgb(109, 66, 109);
+    color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-top: -5px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    background-color: blanchedalmond;
+}
+nav a:hover{
+    background-color: rgb(109, 66, 109);
+    color: white;
+}
+.logo{
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+footer{
+    background-color: rgb(109, 66, 109);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3{
+    color: black;
+}
+footer a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(109, 66, 109);
+}
