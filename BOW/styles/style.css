@@ -20,6 +20,12 @@ nav {
     background-color: rgb(109, 66, 109);
     font-family: "handlee";
     color: white;
+    height: 33px;
+    padding-top: 25px;
+}
+nav a:link, nav a:visited, nav a:hover, nav a:active, nav a:focus {
+    color:white;
+    text-decoration: none;
 }
 nav a:hover{
     background-color: palegoldenrod;
@@ -69,6 +75,7 @@ footer a:hover{
 .button-box{
     text-align: center;
     font-family: "lobster";
+    text-decoration: none;
 }
 .bestsellers{
     text-align: center;
@@ -81,6 +88,7 @@ footer a:hover{
     border-radius: 0%;
     font-family: "Handlee";
     line-height: 1.5px;
+    font-weight: bold;
 }
 .bestsellers:hover{
     background-color: rgb(109, 66, 109);
@@ -119,9 +127,41 @@ main{
 }
 .msg h2{
     font-family: "lobster";
+    font-size: 30px;
+}
+.msg p{
+    color: white;
+    font-family: Handlee;
+    font-size: 20px;
+    padding-bottom: 15px;
+    justify-self: center;
+    align-items: center;
 }
 .drawing{
     width: 45%;
     grid-column: 2/7;
     grid-row: 5/8;
+}
+#join{
+    font-size: 30px;
+    font-weight: bold;
+}
+#background{
+    height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.join{
+    text-align: center;
+    background-color: palegoldenrod;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.group-box{
+    justify-self: center;
 }

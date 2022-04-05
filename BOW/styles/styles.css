@@ -16,15 +16,22 @@ header{
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: palegoldenrod;
+    background-color: rgb(109, 66, 109);
     font-family: "handlee";
+    padding-top: 25px;
+    height: 53px;
+}
+nav a:link, nav a:visited, nav a:hover, nav a:active, nav a:focus {
+    color:white;
+    text-decoration: none;
 }
 nav a:hover{
-    background-color: rgb(109, 66, 109);
-    color: white;
+    background-color: palegoldenrod;
+    color: rgb(109, 66, 109);
 }
 .logo{
-    width: 80px;
+    width: 70px;
+    height: 80px;
 }
 #logo_link{
     padding-top: 5px;
@@ -74,8 +81,8 @@ nav a:hover{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #8f2240;
+  font-size: 22px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -86,7 +93,7 @@ nav a:hover{
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: whitesmoke;
   font-size: 20px;
   padding: 8px 12px;
   position: absolute;
@@ -120,7 +127,7 @@ nav a:hover{
   to {opacity: 1}
 }
 footer{
-    background-color: rgb(109, 66, 109);
+    background-color: palegoldenrod;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -129,12 +136,15 @@ footer{
 }
 footer h3{
     color: black;
+    font-family: "lobster";
 }
 footer a{
     text-align: center;
-    color: white;
+    color: #8f2240;
     text-decoration: none;
+    font-family: "Handlee";
 }
 footer a:hover{
-    color: rgb(109, 66, 109);
+    color: white;
+    background-color: #8f2240;
 }
