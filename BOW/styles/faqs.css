@@ -28,7 +28,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active, nav a:focus {
 }
 nav a:hover{
     background-color: palegoldenrod;
-    color: rgb(109, 66, 109));
+    color: rgb(109, 66, 109);
 }
 .logo{
     width: 70px;
@@ -42,7 +42,6 @@ nav a:hover{
 * {box-sizing: border-box;}
 
 .img-comp-container {
-  position: center;
   height: 200px; /*should be the same height as the images*/
   justify-content: center;
   text-align: center;

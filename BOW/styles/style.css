@@ -29,7 +29,7 @@ nav a:link, nav a:visited, nav a:hover, nav a:active, nav a:focus {
 }
 nav a:hover{
     background-color: palegoldenrod;
-    color: rgb(109, 66, 109));
+    color: rgb(109, 66, 109);
 }
 body{
     background-color: gainsboro;
